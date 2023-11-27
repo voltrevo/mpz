@@ -1,5 +1,7 @@
-mod game;
 mod build_circuit;
+mod enforce_one_active_bit;
+mod tree_reduce;
+mod bit_sum;
 
 use mpz_circuits::types::Value;
 use build_circuit::build_circuit;
